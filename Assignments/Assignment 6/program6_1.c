@@ -1,0 +1,36 @@
+
+// Write a program which accept name from user and print that name.
+
+#include<stdio.h>
+
+////////////////////////////////////////////////////////////////////
+//
+//  Function Name : -
+//  Description :   It is used to display full name
+//  Input :         character
+//  Output :        characters
+//  Author :        Samarth Sandip Ghule
+//  Date :          26/10/2025
+//
+////////////////////////////////////////////////////////////////////
+
+int main()
+{
+    char Name[30];
+
+    printf("Please enter full name\n");
+    scanf("%s",&Name);
+
+    printf("Your name is %s",Name);
+
+    return 0;
+}
+
+////////////////////////////////////////////////////////////////////
+
+//  Input :         Samarth Ghule
+//  Output :        Your name is Samarth Ghule
+
+//  Time Complexity : O(N)
+
+////////////////////////////////////////////////////////////////////
